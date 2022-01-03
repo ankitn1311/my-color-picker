@@ -1,6 +1,8 @@
 import React from "react";
 import { useColors, useColorsDispatch } from "../../contexts/ColorsContext";
 
+import "./Form.scss";
+
 const Form = () => {
   const state = useColors();
   const dispatch = useColorsDispatch();
@@ -9,7 +11,7 @@ const Form = () => {
     <form className="Form">
       <div className="Form__control">
         <label className="Form__control--label" htmlFor="saturation">
-          Saturation
+          Saturation:
         </label>
         <input
           className="Form__control--input"
@@ -26,7 +28,7 @@ const Form = () => {
       </div>
       <div className="Form__control">
         <label className="Form__control--label" htmlFor="lightness">
-          Lightness
+          Lightness:
         </label>
         <input
           className="Form__control--input"

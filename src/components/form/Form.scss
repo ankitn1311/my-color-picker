@@ -1,0 +1,14 @@
+.Form {
+  padding: 2rem;
+  width: 100%;
+  &__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--label {
+    }
+    &--input {
+      width: 100%;
+    }
+  }
+}

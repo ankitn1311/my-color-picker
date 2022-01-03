@@ -4,6 +4,12 @@
   background-color: beige;
   height: 100vh;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  &__col {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

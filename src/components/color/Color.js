@@ -1,8 +1,17 @@
 import React, { useMemo } from "react";
+import { useColorsDispatch } from "../../contexts/ColorsContext";
 import "./Color.scss";
 
 const Color = ({ color }) => {
-  return <div className="Color" style={{ backgroundColor: color }}></div>;
+  const dispatch = useColorsDispatch();
+  return (
+    <div
+      className="Color"
+      style={{ backgroundColor: color }}
+      onClick={() =>
+        dispatch({ type: "change-selected-color", payload: color })
+      }></div>
+  );
 };
 
 export default Color;
