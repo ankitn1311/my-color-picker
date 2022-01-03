@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useMemo } from "react";
 import "./Color.scss";
 
-const Color = () => {
-  return <div className="Color"></div>;
+const Color = ({ color }) => {
+  return <div className="Color" style={{ backgroundColor: color }}></div>;
 };
 
 export default Color;
