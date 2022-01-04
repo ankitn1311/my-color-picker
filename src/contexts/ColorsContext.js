@@ -6,7 +6,7 @@ const ColorsDispatchContext = createContext(null);
 
 const initialState = {
   colors: ["hsl(210,50%,50%)"],
-  saturation: 50,
+  saturation: 100,
   lightness: 50,
   selected: "hsl(210,50%,50%",
 };
