@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./App.scss";
 import ColorBox from "./components/color-box/ColorBox";
 import Form from "./components/form/Form";
@@ -16,7 +16,6 @@ function App() {
         </div>
       </div>
     </ColorsProvider>
-    // <>hello</>
   );
 }
 

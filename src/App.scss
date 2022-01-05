@@ -1,12 +1,14 @@
 .App {
   text-align: center;
-  width: 100vw;
+  padding: 2rem;
   background-color: beige;
-  height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 700px) {
+    padding: 1rem;
+  }
   &__col {
     align-items: center;
     justify-content: center;

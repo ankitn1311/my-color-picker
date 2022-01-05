@@ -1,14 +1,6 @@
 .ColorBox {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  height: 650px;
-  width: 722px;
-  border: 1px solid black;
-  box-shadow: 0px 0px 4px 3px hsla(0, 0%, 0%, 0.4);
-  border-radius: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(19, 1fr);
   overflow: hidden;
 }

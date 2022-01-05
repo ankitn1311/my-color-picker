@@ -25,6 +25,7 @@ const Form = () => {
             dispatch({ type: "change-saturation", payload: e.target.value })
           }
         />
+        {state.saturation}%
       </div>
       <div className="Form__control">
         <label className="Form__control--label" htmlFor="lightness">
@@ -42,6 +43,7 @@ const Form = () => {
           name="lightness"
           id="lightness"
         />
+        {state.lightness}%
       </div>
     </form>
   );
