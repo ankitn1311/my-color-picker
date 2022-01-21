@@ -4,7 +4,7 @@ import "./SelectedColor.scss";
 
 const SelectedColor = () => {
   const { selected } = useColors();
-  const [rgb, setRgb] = useState(true);
+  const [rgb, setRgb] = useState(false);
 
   const [colorValue, setColorValue] = useState(selected);
 
